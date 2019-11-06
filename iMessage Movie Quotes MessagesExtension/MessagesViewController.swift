@@ -35,7 +35,22 @@ class MessagesViewController: MSMessagesAppViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        button01.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button02.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button03.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button04.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button05.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button06.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button07.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button08.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button09.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button10.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button11.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        button12.imageView?.contentMode = UIView.ContentMode.scaleAspectFill
+        
+        
+        
     }
     
     // MARK: - Conversation Handling
