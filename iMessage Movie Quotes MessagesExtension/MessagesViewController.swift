@@ -12,6 +12,27 @@ import Messages
 
 class MessagesViewController: MSMessagesAppViewController {
     
+    // Row 1 from left to right
+    @IBOutlet weak var button01: UIButton!
+    @IBOutlet weak var button02: UIButton!
+    @IBOutlet weak var button03: UIButton!
+    
+    // Row 2 from left to right
+    @IBOutlet weak var button04: UIButton!
+    @IBOutlet weak var button05: UIButton!
+    @IBOutlet weak var button06: UIButton!
+    
+    // Row 3 from left to right
+    @IBOutlet weak var button07: UIButton!
+    @IBOutlet weak var button08: UIButton!
+    @IBOutlet weak var button09: UIButton!
+    
+    // Row 4 from left to right
+    @IBOutlet weak var button10: UIButton!
+    @IBOutlet weak var button11: UIButton!
+    @IBOutlet weak var button12: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -64,5 +85,59 @@ class MessagesViewController: MSMessagesAppViewController {
     
         // Use this method to finalize any behaviors associated with the change in presentation style.
     }
+    
+    // Row 1 from left to right
+    @IBAction func movieBtn01(_ sender: Any) {
 
+    }
+    
+    @IBAction func movieBtn02(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn03(_ sender: Any) {
+        
+    }
+    
+    // Row 2 from left to right
+    @IBAction func movieBtn04(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn05(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn06(_ sender: Any) {
+        
+    }
+    
+    //Row 3 from left to right
+    @IBAction func movieBtn07(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn08(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn09(_ sender: Any) {
+        
+    }
+    
+    // Row 4 from left to right
+    @IBAction func movieBtn10(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn11(_ sender: Any) {
+        
+    }
+    
+    @IBAction func movieBtn12(_ sender: Any) {
+        
+    }
+    
+    
+    
 }

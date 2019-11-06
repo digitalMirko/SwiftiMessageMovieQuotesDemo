@@ -27,6 +27,9 @@
                                                 <state key="normal" title="Button" image="01GoneWithTheWind">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn01:" destination="ObA-dk-sSI" eventType="touchUpInside" id="Df7-Qp-b3P"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW8-gc-G5I">
                                                 <rect key="frame" x="0.0" y="124.5" width="86.5" height="114.5"/>
@@ -34,6 +37,9 @@
                                                 <state key="normal" title="Button" image="04Rocky">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn04:" destination="ObA-dk-sSI" eventType="touchUpInside" id="Gin-Qf-xvb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWf-4w-zBL">
                                                 <rect key="frame" x="0.0" y="249" width="86.5" height="114.5"/>
@@ -41,6 +47,9 @@
                                                 <state key="normal" title="Button" image="07AFewGoodMen">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn07:" destination="ObA-dk-sSI" eventType="touchUpInside" id="vG8-aa-fLN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEM-e4-kgp">
                                                 <rect key="frame" x="0.0" y="373.5" width="86.5" height="114.5"/>
@@ -48,6 +57,9 @@
                                                 <state key="normal" title="Button" image="10JerryMaguire">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn10:" destination="ObA-dk-sSI" eventType="touchUpInside" id="63O-Ho-uGu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -60,6 +72,9 @@
                                                 <state key="normal" title="Button" image="02Casablanca">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn02:" destination="ObA-dk-sSI" eventType="touchUpInside" id="60o-Sg-M7z"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bs-lN-0AW">
                                                 <rect key="frame" x="0.0" y="124.5" width="87" height="114.5"/>
@@ -67,6 +82,9 @@
                                                 <state key="normal" title="Button" image="05SuddenImpact">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn05:" destination="ObA-dk-sSI" eventType="touchUpInside" id="RHp-S1-4SF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Od9-bk-vaz">
                                                 <rect key="frame" x="0.0" y="249" width="87" height="114.5"/>
@@ -74,6 +92,9 @@
                                                 <state key="normal" title="Button" image="08Jaws">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn08:" destination="ObA-dk-sSI" eventType="touchUpInside" id="e6k-TP-M5j"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khh-XK-5xT">
                                                 <rect key="frame" x="0.0" y="373.5" width="87" height="114.5"/>
@@ -81,6 +102,9 @@
                                                 <state key="normal" title="Button" image="11Scarface">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn11:" destination="ObA-dk-sSI" eventType="touchUpInside" id="IOQ-Se-qcw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -93,6 +117,9 @@
                                                 <state key="normal" title="Button" image="03JerryMaguire">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn03:" destination="ObA-dk-sSI" eventType="touchUpInside" id="gY2-Oc-PWi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysx-WE-WK4">
                                                 <rect key="frame" x="0.0" y="124.5" width="86.5" height="114.5"/>
@@ -100,6 +127,9 @@
                                                 <state key="normal" title="Button" image="06StarWars">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn06:" destination="ObA-dk-sSI" eventType="touchUpInside" id="oxM-aU-ZVX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-ou-S3b">
                                                 <rect key="frame" x="0.0" y="249" width="86.5" height="114.5"/>
@@ -107,6 +137,9 @@
                                                 <state key="normal" title="Button" image="09Frankenstein">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn09:" destination="ObA-dk-sSI" eventType="touchUpInside" id="CXU-gg-Q0J"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6I-v8-JFK">
                                                 <rect key="frame" x="0.0" y="373.5" width="86.5" height="114.5"/>
@@ -114,6 +147,9 @@
                                                 <state key="normal" title="Button" image="12SherlockHolmes">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="movieBtn12:" destination="ObA-dk-sSI" eventType="touchUpInside" id="1O4-cq-Fl4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -131,6 +167,20 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="button01" destination="WEq-hg-awb" id="JMf-DA-eEd"/>
+                        <outlet property="button02" destination="pkz-8M-PnL" id="t96-IP-u28"/>
+                        <outlet property="button03" destination="FCM-aM-ZLI" id="I2P-mw-wem"/>
+                        <outlet property="button04" destination="vW8-gc-G5I" id="rHj-SF-rNW"/>
+                        <outlet property="button05" destination="8Bs-lN-0AW" id="ZEu-T9-6gQ"/>
+                        <outlet property="button06" destination="ysx-WE-WK4" id="Kwd-RI-t8k"/>
+                        <outlet property="button07" destination="KWf-4w-zBL" id="xZ6-pA-mpp"/>
+                        <outlet property="button08" destination="Od9-bk-vaz" id="bjl-nS-Rja"/>
+                        <outlet property="button09" destination="MgI-ou-S3b" id="USm-bK-dLJ"/>
+                        <outlet property="button10" destination="EEM-e4-kgp" id="k2q-Fn-zcA"/>
+                        <outlet property="button11" destination="Khh-XK-5xT" id="p9R-7e-nxu"/>
+                        <outlet property="button12" destination="X6I-v8-JFK" id="Js2-eP-CuZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
