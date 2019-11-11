@@ -118,7 +118,7 @@ class MessagesViewController: MSMessagesAppViewController {
     @IBAction func movieBtn01(_ sender: Any) {
         
         templateInfo(wording: "Frankly, my dear, I don't give a damn.", imageUsed: "01GoneWithTheWind")
-
+        
     }
     
     @IBAction func movieBtn02(_ sender: Any) {
@@ -129,44 +129,63 @@ class MessagesViewController: MSMessagesAppViewController {
     
     @IBAction func movieBtn03(_ sender: Any) {
         
+        templateInfo(wording: "Show me the Money!", imageUsed: "03JerryMaguire")
     }
     
     // Row 2 from left to right
     @IBAction func movieBtn04(_ sender: Any) {
         
+        templateInfo(wording: "Yo, Adrian", imageUsed: "04Rocky")
+        
     }
     
     @IBAction func movieBtn05(_ sender: Any) {
         
+        templateInfo(wording: "Go ahead, make my day", imageUsed: "05SuddenImpact")
+        
     }
     
     @IBAction func movieBtn06(_ sender: Any) {
+        
+        templateInfo(wording: "May the Force be with you", imageUsed: "06StarWars")
         
     }
     
     //Row 3 from left to right
     @IBAction func movieBtn07(_ sender: Any) {
         
+        templateInfo(wording: "You can't handle the truth", imageUsed: "07AFewGoodMen")
+        
     }
     
     @IBAction func movieBtn08(_ sender: Any) {
         
+        templateInfo(wording: "You're gonna need a bigger boat", imageUsed: "08Jaws")
+        
     }
     
     @IBAction func movieBtn09(_ sender: Any) {
+        
+        templateInfo(wording: "It's alive! It's alive!", imageUsed: "09Frankenstein")
         
     }
     
     // Row 4 from left to right
     @IBAction func movieBtn10(_ sender: Any) {
         
+        templateInfo(wording: "You had me at hello", imageUsed: "10JerryMaguire")
+        
     }
     
     @IBAction func movieBtn11(_ sender: Any) {
         
+        templateInfo(wording: "Say Hello to my little friend", imageUsed: "11Scarface")
+        
     }
     
     @IBAction func movieBtn12(_ sender: Any) {
+        
+        templateInfo(wording: "Elementary, my dear Watson", imageUsed: "12SherlockHolmes")
         
     }
     
