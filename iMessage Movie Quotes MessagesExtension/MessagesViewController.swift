@@ -101,6 +101,7 @@ class MessagesViewController: MSMessagesAppViewController {
         // Use this method to finalize any behaviors associated with the change in presentation style.
     }
     
+    // used for placing correct wording with the correct image selected
     func templateInfo(wording: String, imageUsed: String) {
         
         let template = MSMessageTemplateLayout()
@@ -188,7 +189,4 @@ class MessagesViewController: MSMessagesAppViewController {
         templateInfo(wording: "Elementary, my dear Watson", imageUsed: "12SherlockHolmes")
         
     }
-    
-    
-    
 }
