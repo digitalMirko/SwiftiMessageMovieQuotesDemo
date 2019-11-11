@@ -101,12 +101,29 @@ class MessagesViewController: MSMessagesAppViewController {
         // Use this method to finalize any behaviors associated with the change in presentation style.
     }
     
+    func templateInfo(wording: String, imageUsed: String) {
+        
+        let template = MSMessageTemplateLayout()
+               template.caption = wording
+               template.image = UIImage(named: imageUsed)
+               
+               let message = MSMessage()
+               message.layout = template
+               
+               activeConversation?.insert(message, completionHandler: nil)
+               requestPresentationStyle(.compact)
+    }
+    
     // Row 1 from left to right
     @IBAction func movieBtn01(_ sender: Any) {
+        
+        templateInfo(wording: "Frankly, my dear, I don't give a damn.", imageUsed: "01GoneWithTheWind")
 
     }
     
     @IBAction func movieBtn02(_ sender: Any) {
+        
+        templateInfo(wording: "Here's looking at you kid", imageUsed: "02Casablanca")
         
     }
     
